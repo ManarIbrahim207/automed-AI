@@ -40,29 +40,29 @@ AutoMed is an intelligent AI agent designed to assist with preliminary medical d
 ## 🚀 Getting Started
 
 ### 1. Clone the repo
-bash
-git clone https://github.com/yourusername/automed-ai.git
+```bash
+git clone https://github.com/ManarIbrahim206/automed-ai.git
 cd automed-ai
-
+```
 
 ### 2. Install dependencies
-bash
+```bash
 python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
-
+```
 
 ### 3. Run basic image classifier (ViT)
-bash
+```bash
 python test_vit.py
-
+```
 
 ### 4. Launch web UI (optional)
-bash
+```bash
 uvicorn app.main:app --reload  # FastAPI
 # or
 streamlit run app/ui.py        # Streamlit
-
+```
 
 ---
 
