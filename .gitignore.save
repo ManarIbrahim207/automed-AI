@@ -1,0 +1,12 @@
+venv/
+_pycache_/
+
+*.pyc
+.env
+pyvenv.cfg
+*.iml
+.idea/
+data/sample_xrays/
+*.egg-info/
+^X
+
